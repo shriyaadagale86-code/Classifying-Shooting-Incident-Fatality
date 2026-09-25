@@ -1,0 +1,6 @@
+git init
+git add app.py train.py requirements.txt model.pkl scaler.pkl label_encoders.pkl feature_columns.pkl
+git commit -m "Initial commit for Streamlit NYPD shooting prediction app"
+git branch -M main
+git remote add origin https://github.com/<YOUR_GITHUB_USERNAME>/<YOUR_REPOSITORY_NAME>.git
+git push -u origin main
